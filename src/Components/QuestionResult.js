@@ -23,7 +23,7 @@ export class QuestionResult extends Component {
         <Header as="h3">Results:</Header>
         <Grid>
           <Grid.Row>
-            <Grid.Column width={20}>
+            <Grid.Column width={15}>
               <Segment>
                 {userVote === "optionOne" && (
                   <Label attached="top" color="blue">
